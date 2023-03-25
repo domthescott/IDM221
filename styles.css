@@ -1,13 +1,14 @@
+/* I set the margins to 0 so that the background color would span the whole horizontal distance */
+
 body {font-family: 'Jost', sans-serif;
     margin-left: 0;
 margin-right: 0;
 }
-h1 {display: flex;
-justify-content: flex-start;
-align-items: flex-end;
-border-bottom-style: solid;   
-background-color: white;
-height: 240px;}
+
+
+/* aboutme and aboutmetext both set the formatting for the header so that the text and image can both fit next to eachother
+h2 refers to the big "Dom Scott" */
+
 
 .aboutme {display: flex;
     flex-wrap: wrap;
@@ -15,10 +16,43 @@ height: 240px;}
 
 }
 
-.top {margin: 0;}
-
 .aboutmetext {max-width: 500px;
 }
+
+h2 {
+    font-size: 64px;
+    flex-basis: 100%;
+}
+
+
+
+
+
+
+#portfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #222222;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 75px;
+    justify-content: space-around;
+    
+    
+    flex-wrap: wrap;    
+    }
+    
+
+    
+   
+
+
+/* I have the margin set to 0 for "top". this is so that the top section of each of the photo pages has a consistent background color
+with no white margins. 
+
+text container has padding because I do not want it to be directly up against the black padding of the image section*/
+
+.top {margin: 0;}
 
 .container {background-color: #222222;
     display: flex;
@@ -28,39 +62,15 @@ height: 240px;}
     padding-bottom: 50px;
 width: 100%;}
 
-.textcontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 50px;
+.textcontainer{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
     
-    }
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
 
 .imagedisplay{background-color: #222222;}
 
-
-
-#portfolio {
-padding-top: 100px;
-padding-bottom: 100px;
-background-color: #222222;
-flex-wrap: wrap;
-display: flex;
-gap: 75px;
-justify-content: space-around;
-
-
-flex-wrap: wrap;    
-}
-
-h2 {
-    font-size: 64px;
-    flex-basis: 100%;
-}
-
-h3{
-    background-color: white;
-}
