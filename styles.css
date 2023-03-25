@@ -9,10 +9,16 @@ border-bottom-style: solid;
 background-color: white;
 height: 240px;}
 
-.aboutme {display: flex;}
+.aboutme {display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
 
 .top {margin: 0;}
 
+.aboutmetext {max-width: 500px;
+}
 
 .container {background-color: #222222;
     display: flex;
@@ -34,6 +40,8 @@ width: 100%;}
     }
 
 .imagedisplay{background-color: #222222;}
+
+
 
 #portfolio {
 padding-top: 100px;
