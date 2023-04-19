@@ -12,11 +12,16 @@ h2 refers to the big "Dom Scott" */
 
 .aboutme {display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center; 
 
 }
 
+#selfportrait {margin-left: 20px;
+margin-right: 20px;}
+
 .aboutmetext {max-width: 500px;
+    margin-left: 20px;
+margin-right: 20px;
 }
 
 h2 {
