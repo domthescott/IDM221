@@ -93,3 +93,22 @@ align-items: center;
 .imagedisplay{background-color: #222222;}
 
 
+button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: grey;
+  }
+
+
